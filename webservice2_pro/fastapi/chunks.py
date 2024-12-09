@@ -7,6 +7,8 @@ from langchain.docstore.document import Document
 from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain.schema import AIMessage, HumanMessage, SystemMessage
+from chunks import Chunk
+
 
 # Загрузка переменных окружения
 load_dotenv(os.path.join(os.path.dirname(__file__), '.env'))

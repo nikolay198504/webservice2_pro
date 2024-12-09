@@ -1,0 +1,30 @@
+# Виртуальное окружение
+venv/
+env/
+.venv/
+.env/
+
+# Компилированные файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Настройки IDE
+.vscode/
+
+# Файлы покрытия тестов
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Другие временные файлы
+*.log
+*.DS_Store
+
