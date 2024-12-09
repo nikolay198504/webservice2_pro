@@ -18,7 +18,7 @@ from django.urls import path
 from chatbot import views 
 
 urlpatterns = [
-    path('', views.start),
-    path('chatbot', views.chatbot, name='chatbots'),
-    path('stats', views.stats, name='stat')
+    path('', views.start, name='start'),#Добавим Имя для Главной Страницы
+    path('chatbot/', views.chatbot, name='chatbot'), #Добавим Завершающий Слеш / в Пути
+    path('stats/', views.stats, name='stats'), #Добавим  Завершающий Слеш / в Пути
 ]
